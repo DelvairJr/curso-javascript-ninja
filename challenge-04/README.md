@@ -47,12 +47,12 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `quantidadePessoas` - Number - zero por padrão
 */
 var carro = {
-  marca: '',
-  modelo: '',
-  placa: '',
-  ano: 0,
-  cor: '',
-  quantasPortas: 0,
+  marca: 'Fiat',
+  modelo: 'Bravo',
+  placa: 'ABC-1234',
+  ano: 2013,
+  cor: 'Azul',
+  quantasPortas: 4,
   assentos: 5,
   quantidadePessoas: 0
 }
@@ -132,7 +132,7 @@ retornar algum valor.
 
 Qual a cor atual do carro?
 */
-carro.obterCor()
+carro.obterCor() //Azul
 
 // Mude a cor do carro para vermelho.
 carro.mudarCor('vermelho')
@@ -147,7 +147,7 @@ carro.mudarCor('verde musgo')
 carro.obterCor() //verde musgo
 
 // Qual a marca e modelo do carro?
-carro.obterMarcaModelo() 
+carro.obterMarcaModelo() //Esse carro é um Fiat Bravo
 
 // Adicione 2 pessoas no carro.
 carro.addPessoas(2) //Já temos 2 pessoas no carro!
